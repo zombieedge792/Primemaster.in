@@ -1,17 +1,36 @@
 body {
     margin: 0;
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     background: #f8f6f2;
     text-align: center;
 }
 
+.lux-header {
+    padding: 20px 40px;
+    border-bottom: 1px solid #ddd;
+}
+
 .logo {
-    font-family: Playfair Display, serif;
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
     letter-spacing: 4px;
-    font-size: 24px;
-    margin: 20px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
 }
 
 .hero {
-    padding: 100px 20px;
+    padding: 80px 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    color: #222;
+}
+
+footer {
+    padding: 20px;
+    font-size: 14px;
+    color: #555;
 }
