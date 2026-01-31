@@ -17,7 +17,7 @@
         <a href="#">Women</a>
         <a href="#">Men</a>
         <a href="#">Accessories</a>
-        <a href="#">Cart</a>
+        <a href="#" id="cart-btn">Cart</a>
     </nav>
 </header>
 
@@ -56,6 +56,24 @@
 <footer>
     <p>© 2026 PRIMEMASTER.in — Luxury, Mastered.</p>
 </footer>
+<!-- CART DRAWER -->
+<div class="cart-drawer" id="cart">
+    <div class="cart-header">
+        <h3>Your Cart</h3>
+        <span id="close-cart">&times;</span>
+    </div>
+
+    <div class="cart-items" id="cart-items">
+        <p class="empty">Your cart is empty</p>
+    </div>
+
+    <div class="cart-footer">
+        <p>Total: <span id="cart-total">₹0</span></p>
+        <button class="checkout-btn">Checkout</button>
+    </div>
+</div>
+
+<script src="js/script.js"></script>
 
 </body>
 </html>
