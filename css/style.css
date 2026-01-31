@@ -1,104 +1,17 @@
-:root {
-    --black: #0b0b0b;
-    --ivory: #f8f6f2;
-    --gold: #c9a14a;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: 'Poppins', sans-serif;
-    background: var(--ivory);
-    color: var(--black);
-}
-
-/* Header */
-.lux-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 80px;
-    border-bottom: 1px solid #ddd;
+    margin: 0;
+    font-family: Poppins, sans-serif;
+    background: #f8f6f2;
+    text-align: center;
 }
 
 .logo {
-    font-family: 'Playfair Display', serif;
+    font-family: Playfair Display, serif;
     letter-spacing: 4px;
     font-size: 24px;
+    margin: 20px;
 }
 
-nav a {
-    margin-left: 30px;
-    text-decoration: none;
-    color: var(--black);
-    font-size: 14px;
-}
-
-/* Hero */
 .hero {
-    height: 85vh;
-    background: url("../images/hero.jpg") center/cover no-repeat;
-    display: flex;
-    align-items: center;
-    padding-left: 100px;
-}
-
-.hero-content h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 60px;
-}
-
-.hero-content p {
-    margin: 15px 0;
-    color: #777;
-}
-
-.hero-content button {
-    background: none;
-    border: 1px solid var(--black);
-    padding: 12px 35px;
-    cursor: pointer;
-}
-
-/* Products */
-.products {
-    padding: 80px;
-}
-
-.products h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: 36px;
-    margin-bottom: 40px;
-}
-
-.product-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 40px;
-}
-
-.product-card {
-    text-align: center;
-}
-
-.product-card img {
-    width: 100%;
-    height: 350px;
-    object-fit: cover;
-}
-
-.product-card span {
-    color: var(--gold);
-}
-
-/* Footer */
-footer {
-    text-align: center;
-    padding: 40px;
-    color: #777;
-    font-size: 14px;
+    padding: 100px 20px;
 }
