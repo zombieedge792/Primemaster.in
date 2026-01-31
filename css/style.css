@@ -110,3 +110,54 @@ footer {
     font-size: 14px;
     color: #777;
 }
+/* =====================
+   MOBILE RESPONSIVE
+   ===================== */
+
+@media (max-width: 768px) {
+
+    /* Header */
+    .header {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    nav {
+        margin-top: 15px;
+    }
+
+    nav a {
+        margin: 0 10px;
+        font-size: 13px;
+    }
+
+    /* Hero */
+    .hero {
+        padding: 0 20px;
+        height: 70vh;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .hero-text h1 {
+        font-size: 38px;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+    }
+
+    /* Products */
+    .products {
+        padding: 40px 20px;
+    }
+
+    .products h2 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .product-card img {
+        height: 260px;
+    }
+}
